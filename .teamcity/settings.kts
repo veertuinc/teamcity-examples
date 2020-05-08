@@ -58,7 +58,7 @@ object TeamcityExamples : Project({
 })
 
 object TeamcityExamples_Build : BuildType({
-    name = "Pipeline"
+    name = "Pipeline 1"
 
     vcs {
         root(TeamcityExamples_HttpsGithubComVeertuincTeamcityExamplesRefsHeadsMaster)
