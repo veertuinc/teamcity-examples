@@ -233,6 +233,7 @@ object TeamcityExamples_Build : BuildType({
         }
         script {
             name = "Cleanup"
+            enabled = false
             executionMode = BuildStep.ExecutionMode.ALWAYS
             scriptContent = """
                 echo "Cleaning up"
