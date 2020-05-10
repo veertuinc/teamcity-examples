@@ -188,7 +188,7 @@ object TeamcityExamples : Project({
             param("next-hour", "")
             param("image_id", "cfbf3554-1360-471a-8c5d-60620f17bae6")
             param("ssh_password", "admin")
-            param("terminate-idle-time", "5")
+            param("terminate-idle-time", "10")
             param("auth.method", "cert")
         }
     }
