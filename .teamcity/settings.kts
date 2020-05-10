@@ -89,7 +89,7 @@ object TeamcityExamples : Project({
             """.trimIndent())
             param("agentPushPreset", "")
             param("auth.oidc.client_id", "")
-            param("clouds.anka.url", "https://host.docker.internal:8090")
+            param("clouds.anka.url", "https://host.docker.internal:809")
             param("image_tag", "base:port-forward-22:brew-git:openjdk-1.8.0_242:teamcity")
             param("agent_path", "/Users/anka/buildAgent")
             param("ssh_user", "anka")
