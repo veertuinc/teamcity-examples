@@ -223,6 +223,7 @@ object TeamcityExamples_Build : BuildType({
         }
         script {
             name = "Test"
+            enabled = false
             scriptContent = """
                 echo "Testing..."
                 [[ -z ${'$'}something ]] && echo "something is empty!" && exit 1
