@@ -213,6 +213,7 @@ object TeamcityExamples_Build : BuildType({
         }
         script {
             name = "Build"
+            enabled = false
             scriptContent = """
                 echo "Building..."
                 ls -laht
