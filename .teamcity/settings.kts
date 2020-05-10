@@ -179,7 +179,7 @@ object TeamcityExamples : Project({
                 -----END CERTIFICATE-----
             """.trimIndent())
             param("cloud-code", "anka")
-            param("clouds.anka.maxInstances", "")
+            param("clouds.anka.maxInstances", "2")
             param("priority", "")
             param("terminate-after-build", "true")
             param("group_id", "")
