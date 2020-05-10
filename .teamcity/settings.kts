@@ -60,6 +60,7 @@ object TeamcityExamples : Project({
         feature {
             id = "anka-1"
             type = "CloudProfile"
+            param("system.cloud.profile_id", "anka-1")
             param("description", "")
             param("enabled", "true")
             param("image_name", "10.15.4")
@@ -180,13 +181,14 @@ object TeamcityExamples : Project({
             param("cloud-code", "anka")
             param("clouds.anka.maxInstances", "")
             param("priority", "")
+            param("terminate-after-build", "true")
             param("group_id", "")
             param("profileId", "anka-1")
             param("name", "Anka Cloud Profile 1")
             param("next-hour", "")
             param("image_id", "cfbf3554-1360-471a-8c5d-60620f17bae6")
             param("ssh_password", "admin")
-            param("terminate-idle-time", "30")
+            param("terminate-idle-time", "5")
             param("auth.method", "cert")
         }
     }
