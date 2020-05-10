@@ -220,8 +220,6 @@ object TeamcityExamples_Build : BuildType({
             name = "Test"
             scriptContent = """
                 echo "Testing..."
-                [[ -z ${'$'}something ]] && echo "something is empty!" && exit 1
-                echo "something found: ${'$'}something"
                 echo "Tests complete!"
             """.trimIndent()
         }
