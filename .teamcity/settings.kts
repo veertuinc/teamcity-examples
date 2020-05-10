@@ -208,6 +208,7 @@ object TeamcityExamples_Build : BuildType({
                 echo "Testing from ${'$'}(hostname)"
                 env
                 uname -a
+                export something="blah"
             """.trimIndent()
         }
         script {
