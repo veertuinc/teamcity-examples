@@ -223,6 +223,7 @@ object TeamcityExamples_Build : BuildType({
             name = "Test"
             scriptContent = """
                 echo "Testing..."
+                sleep 10
                 echo "Tests complete!"
             """.trimIndent()
         }
