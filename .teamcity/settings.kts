@@ -194,6 +194,7 @@ object TeamcityExamples : Project({
         feature {
             id = "anka-7"
             type = "CloudProfile"
+            param("system.cloud.profile_id", "anka-7")
             param("description", "")
             param("enabled", "true")
             param("image_name", "10.15.4")
@@ -223,7 +224,7 @@ object TeamcityExamples : Project({
             param("agentPushPreset", "")
             param("auth.oidc.client_id", "")
             param("clouds.anka.url", "https://host.docker.internal:8090")
-            param("image_tag", "")
+            param("image_tag", "base:port-forward-22:brew-git:openjdk-1.8.0_242:teamcity")
             param("agent_path", "/Users/anka/buildAgent")
             param("ssh_user", "anka")
             param("agentPoolId", "")
