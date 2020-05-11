@@ -40,6 +40,7 @@ project {
         feature {
             id = "anka-3"
             type = "CloudProfile"
+            param("system.cloud.profile_id", "anka-3")
             param("description", "")
             param("enabled", "true")
             param("image_name", "10.15.4")
@@ -72,7 +73,7 @@ project {
             param("image_tag", "base:port-forward-22:brew-git:openjdk-1.8.0_242:teamcity")
             param("agent_path", "/Users/anka/buildAgent")
             param("ssh_user", "anka")
-            param("agentPoolId", "0")
+            param("agentPoolId", "")
             param("auth.cert.cert_key", """
                 -----BEGIN RSA PRIVATE KEY-----
                 MIIJJwIBAAKCAgEAoEcQ+IvybPWS7skEeI8HHa+7SQantLZsqSuceuO4U7u56oWe
