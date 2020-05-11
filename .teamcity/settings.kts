@@ -236,6 +236,7 @@ object TeamcityExamples_Build : BuildType({
 
     triggers {
         vcs {
+            enabled = false
         }
     }
 })
