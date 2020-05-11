@@ -60,6 +60,7 @@ object TeamcityExamples : Project({
         feature {
             id = "anka-8"
             type = "CloudProfile"
+            param("system.cloud.profile_id", "anka-8")
             param("description", "")
             param("enabled", "true")
             param("image_name", "10.15.4")
@@ -147,7 +148,7 @@ object TeamcityExamples : Project({
                 -----END RSA PRIVATE KEY-----
             """.trimIndent())
             param("auth.oidc.client_secret", "")
-            param("profileServerUrl", "")
+            param("profileServerUrl", "http://anka.teamcity:8094")
             param("total-work-time", "")
             param("auth.cert.cert", """
                 -----BEGIN CERTIFICATE-----
