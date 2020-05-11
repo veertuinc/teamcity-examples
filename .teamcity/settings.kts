@@ -196,7 +196,7 @@ object TeamcityExamples : Project({
             type = "CloudProfile"
             param("system.cloud.profile_id", "anka-9")
             param("description", "")
-            param("enabled", "true")
+            param("enabled", "false")
             param("image_name", "10.15.4")
             param("auth.cert.rootca", """
                 -----BEGIN CERTIFICATE-----
