@@ -216,7 +216,7 @@ object TeamcityExamples_Build : BuildType({
             scriptContent = """
                 echo "Building..."
                 ls -laht
-                sleep 60
+                sleep 20
                 echo "Done!"
             """.trimIndent()
         }
