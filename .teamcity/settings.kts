@@ -148,7 +148,7 @@ object TeamcityExamples : Project({
                 -----END RSA PRIVATE KEY-----
             """.trimIndent())
             param("auth.oidc.client_secret", "")
-            param("profileServerUrl", "http://anka.teamcity:8094")
+            param("profileServerUrl", "")
             param("total-work-time", "")
             param("auth.cert.cert", """
                 -----BEGIN CERTIFICATE-----
